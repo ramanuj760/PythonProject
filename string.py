@@ -30,3 +30,6 @@ print(j)
 o="ramaaaaaaaaaa"
 k=o.rstrip("a")
 print(k)
+print(a.startswith("h"),"startswith")
+print(a.endswith("n"),"endswith")
+print(a.title())

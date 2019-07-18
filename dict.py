@@ -1,13 +1,14 @@
+"""write a python program to guess number between 1 to 9"""
 print("welcome in guess number")
 import random
 
 a= random.randint(1,20)
-for i in range(4):
+for i in range(9):
   b = int(input("enter a value"))
   if b<a:
-    print("its right it is small value")
+    print("user value is small value")
   elif b>a:
-    print(" greater value5 ")
+    print(" user value is greater values ")
   else:
       break
 print("value given by user",b)

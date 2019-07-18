@@ -11,14 +11,16 @@ b=['ram','Python','HELLO','List']
 a.insert(2,57)
 print(a)
 print(b)
+print(max(a))
+print(min(a))
 a.sort()
 print(a)
 a.sort(reverse=True) #decreasing order
-print(a)
+print(a,"reverse")
 b.sort()
 print(b)
 b.sort(key=str.lower)
-print(b,"yes")
+print(b,"yes  ")
 print(b.index('Python'))
 a.remove(96) # if more than value it remove first instance
 print(a)
@@ -46,7 +48,8 @@ g=a[2:]
 print(g)
 h=a[2:5]
 print(h)
-for n in range (a):
-    print(n)
-for n in range (len(a)):
-    print(n)
+
+# for n in range (a):
+#     print(n)
+# for n in range (len(a)):
+#     print(n)

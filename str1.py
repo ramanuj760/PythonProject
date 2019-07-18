@@ -5,7 +5,7 @@ print(b.startswith("y"))
 x='python      '
 y='course'
 z='*'.join([a,x,y])
-print(z)
+print(z,"hkk")
 print(len(a))
 print(a.split("l"))
 ju=a.rjust(40,"*")
